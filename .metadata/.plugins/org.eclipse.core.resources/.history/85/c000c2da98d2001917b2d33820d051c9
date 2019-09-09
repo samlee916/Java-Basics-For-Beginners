@@ -1,0 +1,29 @@
+//A Java example about data structures
+import java.util.ArrayList;
+
+public class Java5 {
+
+	public static void main(String[] args) {
+		
+		int[] var = {1,2,3};
+		System.out.println(var[2]);
+		int[] array = new int[10];
+		for(int i = 0; i < 10; i++) {
+			array[i] = i;
+		}
+		System.out.println(array[5]);
+		
+		String[] array1 = new String[5];
+		array1[4] = "Hello";
+		System.out.println(array1[4]);
+		
+		ArrayList<String> arraylist = new ArrayList<String>();
+		arraylist.add("Hi");
+		arraylist.add("Hello");
+		arraylist.add("Hey");
+		
+		System.out.println(arraylist);
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+//A Java example of variables
+public class Variables {
+
+	public static void main(String[] args) {
+		int x = 112;
+		System.out.println(x);
+		int age = 12;
+		age =  age + 1;
+		System.out.println(age);
+		
+	}
+
+}

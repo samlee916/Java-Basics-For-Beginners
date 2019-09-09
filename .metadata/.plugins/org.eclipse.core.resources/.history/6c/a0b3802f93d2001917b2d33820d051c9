@@ -1,0 +1,13 @@
+//A Java example about data structures
+import java.util.ArrayList;
+
+public class Java5 {
+
+	public static void main(String[] args) {
+		
+		int[] var = {1,2,3};
+		
+
+	}
+
+}

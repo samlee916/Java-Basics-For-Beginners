@@ -1,0 +1,18 @@
+//A Java example about conditions and loops
+public class Java3 {
+
+	public static void main(String[] args) {
+		int age = 19;
+		if(age < 18) {
+			System.out.println("You are a minor.");		
+		}
+		else if(age < 40) {
+			System.out.println("You are under 40.");		
+		}
+		else {
+			System.out.println("You are an adult.");		
+
+		}
+
+	}
+}
